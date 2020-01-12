@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="" />
+    <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/modelo/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/modelo/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/Notificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/NotificadorEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/NotificadorSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/service/AtivacaoClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/service/EmissaoNotaFiscalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/modelo/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algafood-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algafood-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +28,24 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WGKdjWegzkWj1TrddwQB2gcJ89" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,12 +57,13 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration name="AlgafoodApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -64,6 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578770581137</updated>
       <workItem from="1578770588322" duration="1904000" />
+      <workItem from="1578773800668" duration="6383000" />
+      <workItem from="1578788831049" duration="1114000" />
     </task>
     <servers />
   </component>
@@ -71,45 +106,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1578772504001">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1578788981031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1578772504001">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578788981031" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1578772504001">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1578772504001">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1578772504002">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504002" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1578772504001">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1578772504001">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504001" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1578772504002">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578772504002" />
-    <state x="440" y="115" width="1151" height="850" key="SettingsEditor" timestamp="1578771885087">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1578789947729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="115" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578771885087" />
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578770590193">
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state x="524" y="188" key="Registry" timestamp="1578778249365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578770590193" />
+    <state x="524" y="188" key="Registry/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578778249365" />
+    <state x="392" y="108" width="1151" height="850" key="SettingsEditor" timestamp="1578777863666">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578777863666" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578773831161">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578773831161" />
+    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578778232681">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578778232681" />
   </component>
 </project>
