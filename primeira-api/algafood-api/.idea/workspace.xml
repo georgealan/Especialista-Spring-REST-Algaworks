@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/modelo/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/Notificador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/NotificadorEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/notificacao/NotificadorSMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/service/AtivacaoClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../injecao-de-dependencias/src/com/algaworks/di/service/EmissaoNotaFiscalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/NotificacaoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/Notificador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algafood-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algafood-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/MeuPrimeiroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/MeuPrimeiroController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/NotificadorEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/NotificadorEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/service/AtivacaoClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/service/AtivacaoClienteService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,6 +59,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.algaworks.algafoodapi.notificacao" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="AlgafoodApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -99,6 +99,7 @@
       <workItem from="1578770588322" duration="1904000" />
       <workItem from="1578773800668" duration="6383000" />
       <workItem from="1578788831049" duration="1114000" />
+      <workItem from="1578960616200" duration="4966000" />
     </task>
     <servers />
   </component>
@@ -106,42 +107,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1578788981031">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1578962522823">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578788981031" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1578789947729">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578962522823" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1578789947729">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1578967492516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578789947729" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
     <state x="524" y="188" key="Registry" timestamp="1578778249365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -150,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578777863666" />
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578773831161">
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578960616216">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578773831161" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578960616216" />
     <state x="541" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578778232681">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
