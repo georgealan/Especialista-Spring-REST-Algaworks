@@ -2,17 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/NotificacaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/ServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/Notificador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Cozinha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/CozinhaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/RestauranteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/CozinhaRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/RestauranteRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/AlteracaoCozinhaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/AlteracaoRestauranteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/BuscaCozinhaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/BuscaRestauranteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ConsultaCozinhaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ConsultaRestauranteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ExclusaoCozinhaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ExclusaoRestauranteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/InclusaoCozinhaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/InclusaoRestauranteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/MeuPrimeiroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/MeuPrimeiroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/NotificadorEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/NotificadorEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/service/AtivacaoClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/service/AtivacaoClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algafood-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algafood-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/MeuPrimeiroController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/NotificacaoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/ServiceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/modelo/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/Notificador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/notificacao/NotificadorEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/service/AtivacaoClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/MeuPrimeiroController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/NotificacaoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/ServiceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/Notificador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/notificacao/NotificadorEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/service/AtivacaoClienteService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +73,25 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -40,7 +104,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WGKdjWegzkWj1TrddwQB2gcJ89" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,17 +121,85 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.algaworks.algafoodapi.notificacao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.algafoodapi.jpa" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AlgafoodApiApplication">
+    <configuration name="AlteracaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.AlteracaoRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscaRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.BuscaRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.ConsultaRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExclusaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.ExclusaoRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InclusaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.InclusaoRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlgafoodApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="algafood-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.algaworks.algafoodapi.AlgafoodApiApplication" />
@@ -73,6 +207,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConsultaRestauranteMain" />
+        <item itemvalue="Application.InclusaoRestauranteMain" />
+        <item itemvalue="Application.ExclusaoRestauranteMain" />
+        <item itemvalue="Application.AlteracaoRestauranteMain" />
+        <item itemvalue="Application.BuscaRestauranteMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -85,6 +228,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,6 +244,11 @@
       <workItem from="1578773800668" duration="6383000" />
       <workItem from="1578788831049" duration="1114000" />
       <workItem from="1578960616200" duration="4966000" />
+      <workItem from="1579302752251" duration="8763000" />
+      <workItem from="1579456867484" duration="1825000" />
+      <workItem from="1579459147689" duration="2420000" />
+      <workItem from="1579461604623" duration="12662000" />
+      <workItem from="1579482782505" duration="8066000" />
     </task>
     <servers />
   </component>
@@ -107,57 +256,81 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1578962522823">
+    <state x="552" y="199" key="#SQL_Dialects" timestamp="1579470243301">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578962522823" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1578967492516">
+    <state x="552" y="199" key="#SQL_Dialects/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579470243301" />
+    <state x="414" y="195" width="1100" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579458771244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1578967492516">
+    <state x="414" y="195" width="1100" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579458771244" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579484751790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1578967492516">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579484751790" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579485405954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1578967492516">
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579485405954" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579481037736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1578967492516">
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579481037736" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1579490865955">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1578967492516">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1579490865955">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1578967492516">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1579490865955">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1578967492516">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1579490865955">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578967492516" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1579490865956">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865956" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1579490865955">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1579490865955">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865955" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1579490865956">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579490865956" />
     <state x="524" y="188" key="Registry" timestamp="1578778249365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="524" y="188" key="Registry/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578778249365" />
-    <state x="392" y="108" width="1151" height="850" key="SettingsEditor" timestamp="1578777863666">
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1579458923759">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578777863666" />
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578960616216">
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579458923759" />
+    <state x="392" y="108" width="1151" height="850" key="SettingsEditor" timestamp="1579459064303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578960616216" />
-    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578778232681">
+    <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579459064303" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1579482783100">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578778232681" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579482783100" />
+    <state x="632" y="231" width="672" height="677" key="run.anything.popup" timestamp="1579459097264">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="632" y="231" width="672" height="677" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579459097264" />
+    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1579488210488">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="541" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579488210488" />
   </component>
 </project>
