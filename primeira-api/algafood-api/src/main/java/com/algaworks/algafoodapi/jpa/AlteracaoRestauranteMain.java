@@ -18,7 +18,7 @@ public class AlteracaoRestauranteMain {
         restaurante.setId(1L);
         restaurante.setNome("iFood");
 
-        restauranteRepository.adicionar(restaurante);
+        restauranteRepository.salvar(restaurante);
 
     }
 }
