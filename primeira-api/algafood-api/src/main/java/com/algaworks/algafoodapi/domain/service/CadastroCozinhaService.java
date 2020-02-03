@@ -9,8 +9,6 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 /**
  * Classe de serviço responsável por fazer operações que mechem no banco de dados.
  */
@@ -21,16 +19,12 @@ public class CadastroCozinhaService {
     private CozinhaRepository cozinhaRepository;
 
     public Cozinha salvar(Cozinha cozinha) {
-        return cozinhaRepository.adicionar(cozinha);
-    }
-
-    public List<Cozinha> listar() {
-        return cozinhaRepository.listar();
+        return cozinhaRepository.save(cozinha);
     }
 
     public void excluir(Long id) {
         try {
-            cozinhaRepository.remover(id);
+            cozinhaRepository.deleteById(id);
         } catch (EmptyResultDataAccessException e) {
             throw new EntidadeNaoEncontradaException(
                     String.format("Não existe um cadastro de cozinha com código %d", id));
