@@ -1,7 +1,10 @@
 package com.algaworks.algafoodapi.infrastructure.repository;
 
 import com.algaworks.algafoodapi.domain.model.Restaurante;
+import com.algaworks.algafoodapi.domain.repository.RestauranteRepository;
 import com.algaworks.algafoodapi.domain.repository.RestauranteRepositoryQuerys;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 
@@ -17,6 +20,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static com.algaworks.algafoodapi.infrastructure.repository.spec.RestauranteSpecs.comFreteGratis;
+import static com.algaworks.algafoodapi.infrastructure.repository.spec.RestauranteSpecs.comNomeSemelhante;
+
 /**
  * Classe de implementação do repositório, que não necessita de implements para funcionar, porque se fossemos
  * implementar a interface de repository teriamos que sobrescrever todos os métodos da interface, e não queremos isto
@@ -29,6 +35,9 @@ public class RestauranteRepositoryImpl implements RestauranteRepositoryQuerys {
 
     @PersistenceContext
     private EntityManager manager;
+
+    @Autowired @Lazy
+    private RestauranteRepository restauranteRepository;
 
     @Override
     public List<Restaurante> find(String nome, BigDecimal taxaFreteInicial, BigDecimal taxaFreteFinal) {
@@ -56,5 +65,10 @@ public class RestauranteRepositoryImpl implements RestauranteRepositoryQuerys {
 
         TypedQuery<Restaurante> query = manager.createQuery(criteria);
         return query.getResultList();
+    }
+
+    @Override
+    public List<Restaurante> findComFreteGratis(String nome) {
+        return restauranteRepository.findAll(comFreteGratis().and(comNomeSemelhante(nome)));
     }
 }

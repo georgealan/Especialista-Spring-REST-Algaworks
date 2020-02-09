@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import static com.algaworks.algafoodapi.infrastructure.repository.spec.RestauranteSpecs.*;
+
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
@@ -30,7 +32,7 @@ public class TestController {
     }
 
     @GetMapping("/cozinhas/unica-por-nome")
-    public Optional<Cozinha> cozinhaPorNome(String nome) { // Podemos omitir o @RequestParam, não é necessário neste caso.
+    public Optional<Cozinha> cozinhaPorNome(String nome) { // Podemos omitir o @RequestParam, não é necessário nestes casos.
         return cozinhaRepository.findByNome(nome);
     }
 
@@ -68,5 +70,17 @@ public class TestController {
     @GetMapping("/restaurantes/restaurantes-por-nome-e-frete")
     public List<Restaurante> taxaFreteInicial(String nome, BigDecimal taxaFreteInicial, BigDecimal taxaFreteFinal) {
         return restauranteRepository.find(nome, taxaFreteInicial, taxaFreteFinal);
+    }
+
+    //Método utilizando specifications
+    @GetMapping("/restaurantes/com-frete-gratis")
+    public List<Restaurante> restauranteComFreteGratis(String nome) {
+        return restauranteRepository.findComFreteGratis(nome);
+    }
+
+    // Método herdado do CustomJpaRepository
+    @GetMapping("/restaurantes/primeiro")
+    public Optional<Restaurante> restaurantePrimeiro() {
+        return restauranteRepository.buscarPrimeiro();
     }
 }
