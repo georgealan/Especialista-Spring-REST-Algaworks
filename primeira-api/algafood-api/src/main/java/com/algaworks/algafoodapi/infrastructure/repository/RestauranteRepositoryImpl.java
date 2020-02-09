@@ -1,40 +1,60 @@
 package com.algaworks.algafoodapi.infrastructure.repository;
 
 import com.algaworks.algafoodapi.domain.model.Restaurante;
-import com.algaworks.algafoodapi.domain.repository.RestauranteRepository;
+import com.algaworks.algafoodapi.domain.repository.RestauranteRepositoryQuerys;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Classe de implementação do repositório, que não necessita de implements para funcionar, porque se fossemos
+ * implementar a interface de repository teriamos que sobrescrever todos os métodos da interface, e não queremos isto
+ * vamos utilizar esta classe para criar querys mais avançadas e dinamicas.
+ * O Spring Data JPA é inteligente para que a gente apenas precise copiar a assinatura dos métodos abaixo para a
+ * interface do repository, que ele vai fazer a ligaçào automaticamente.
+ */
 @Repository
-public class RestauranteRepositoryImpl implements RestauranteRepository {
+public class RestauranteRepositoryImpl implements RestauranteRepositoryQuerys {
 
     @PersistenceContext
     private EntityManager manager;
 
     @Override
-    public List<Restaurante> listar() {
-        return manager.createQuery("from Restaurante", Restaurante.class).getResultList();
-    }
+    public List<Restaurante> find(String nome, BigDecimal taxaFreteInicial, BigDecimal taxaFreteFinal) {
 
-    @Override
-    public Restaurante buscar(Long id) {
-        return manager.find(Restaurante.class, id);
-    }
+        CriteriaBuilder builder = manager.getCriteriaBuilder();
 
-    @Transactional
-    @Override
-    public Restaurante salvar(Restaurante restaurante) {
-        return manager.merge(restaurante);
-    }
+        CriteriaQuery<Restaurante> criteria = builder.createQuery(Restaurante.class);
+        Root<Restaurante> root = criteria.from(Restaurante.class);
 
-    @Transactional
-    @Override
-    public void remover(Restaurante restaurante) {
-        restaurante = buscar(restaurante.getId());
-        manager.remove(restaurante);
+        var predicates = new ArrayList<Predicate>();
+
+        if (StringUtils.hasText(nome)) {
+            predicates.add(builder.like(root.get("nome"), "%" + nome + "%"));
+        }
+
+        if (taxaFreteInicial != null) {
+            predicates.add(builder.greaterThanOrEqualTo(root.get("taxaFrete"), taxaFreteInicial));
+        }
+
+        if (taxaFreteFinal != null) {
+            predicates.add(builder.lessThanOrEqualTo(root.get("taxaFrete"), taxaFreteFinal));
+        }
+
+        criteria.where(predicates.toArray(new Predicate[0]));
+
+        TypedQuery<Restaurante> query = manager.createQuery(criteria);
+        return query.getResultList();
     }
 }

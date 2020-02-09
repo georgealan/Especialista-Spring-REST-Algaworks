@@ -2,56 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/RestauranteRepositoryQuerys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CozinhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CozinhaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CidadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CidadeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/EstadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/EstadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/CidadeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/CidadeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/CozinhaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/CozinhaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/EstadoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/EstadoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/FormaPagamentoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/FormaPagamentoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/PermissaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/PermissaoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/RestauranteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/repository/RestauranteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCozinhaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCozinhaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroEstadoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroEstadoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroRestauranteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroRestauranteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/CozinhaRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/RestauranteRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/infrastructure/repository/RestauranteRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/AlteracaoCozinhaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/AlteracaoRestauranteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/BuscaCozinhaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/BuscaRestauranteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ConsultaCozinhaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ConsultaRestauranteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/ExclusaoRestauranteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/InclusaoCozinhaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/jpa/InclusaoRestauranteMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CozinhaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CozinhaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CidadeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CidadeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/EstadoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/EstadoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/TestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/CidadeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/CidadeRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/CozinhaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/CozinhaRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/EstadoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/EstadoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/FormaPagamentoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/FormaPagamentoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/PermissaoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/PermissaoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/RestauranteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/repository/RestauranteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCozinhaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCozinhaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroEstadoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroEstadoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroRestauranteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroRestauranteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/CozinhaRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/CidadeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/EstadoRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/FormaPagamentoRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/PermissaoRepositoryImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/RestauranteRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/infrastructure/repository/RestauranteRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/AlteracaoCozinhaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/AlteracaoRestauranteMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/BuscaCozinhaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/BuscaRestauranteMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/ConsultaCozinhaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/ConsultaRestauranteMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/ExclusaoRestauranteMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/InclusaoCozinhaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/jpa/InclusaoRestauranteMain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +72,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -119,6 +108,7 @@
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.algaworks.algafoodapi.infrastructure.repository" />
       <recent name="com.algaworks.algafoodapi.notificacao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -249,6 +239,7 @@
       <workItem from="1580582990312" duration="18353000" />
       <workItem from="1580605602997" duration="10837000" />
       <workItem from="1580674845552" duration="9645000" />
+      <workItem from="1581188810512" duration="25243000" />
     </task>
     <servers />
   </component>
@@ -284,38 +275,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580090604485" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1580695631687">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631687" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1580695631688">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1581220756143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580695631688" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581220756143" />
     <state width="1877" height="354" key="GridCell.Tab.2.bottom" timestamp="1580604968480">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -344,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579459064303" />
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1580674847771">
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581188811160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580674847771" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581188811160" />
     <state x="632" y="231" width="672" height="677" key="run.anything.popup" timestamp="1580592479805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
