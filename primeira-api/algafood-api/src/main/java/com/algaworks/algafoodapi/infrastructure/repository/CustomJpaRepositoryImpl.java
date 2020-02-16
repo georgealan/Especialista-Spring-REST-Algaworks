@@ -25,6 +25,6 @@ public class CustomJpaRepositoryImpl<T, ID> extends SimpleJpaRepository<T, ID> i
                 .setMaxResults(1)
                 .getSingleResult();
 
-        return Optional.ofNullable(entity);
+        return Optional.ofNullable(entity); // Pode ser retornar um Optional com valor nulo ou com a entidade.
     }
 }

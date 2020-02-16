@@ -53,25 +53,33 @@ public class RestauranteController {
 
     @PutMapping("/{id}")
     public ResponseEntity<?> atualizar(@PathVariable Long id, @RequestBody Restaurante restaurante) {
+
         try {
             Restaurante restauranteAtual = restauranteRepository.findById(id).orElse(null);
 
             if (restauranteAtual != null) {
-                BeanUtils.copyProperties(restaurante, restauranteAtual, "id");
+                BeanUtils.copyProperties(restaurante, restauranteAtual, "id",
+                        "formasPagamento",
+                        "endereco",
+                        "dataCadastro");
+
                 restauranteAtual = cadastroRestaurante.salvar(restauranteAtual);
+
                 return ResponseEntity.ok(restauranteAtual);
             }
+
             return ResponseEntity.notFound().build();
+
         } catch (EntidadeNaoEncontradaException e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
     @PatchMapping("/{id}")
-    public ResponseEntity<?> atualizarParcial(@PathVariable Long id, @RequestBody Map<String, Object> campos){
+    public ResponseEntity<?> atualizarParcial(@PathVariable Long id, @RequestBody Map<String, Object> campos) {
         Restaurante restauranteAtual = restauranteRepository.findById(id).orElse(null);
 
-        if(restauranteAtual == null){
+        if (restauranteAtual == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -82,10 +90,11 @@ public class RestauranteController {
 
     /**
      * Método que utiliza reflections, em um mapa para atualizar valores pelo verbo patch
+     *
      * @param dadosOrigem
      * @param restauranteDestino
      */
-    private void merge(Map<String, Object> dadosOrigem, Restaurante restauranteDestino){
+    private void merge(Map<String, Object> dadosOrigem, Restaurante restauranteDestino) {
         ObjectMapper objectMapper = new ObjectMapper();
         Restaurante restauranteOrigem = objectMapper.convertValue(dadosOrigem, Restaurante.class);
 
