@@ -32,6 +32,7 @@ public class CadastroCidadeService {
                 String.format("Não existe cadastro de estado com código %d", estadoId)));
 
         cidade.setEstado(estado);
+        // Ateração de teste.
         return cidadeRepository.save(cidade);
     }
 
