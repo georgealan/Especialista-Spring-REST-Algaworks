@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/service/CadastroCidadeService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,12 +209,29 @@
       <workItem from="1581795327697" duration="21790000" />
       <workItem from="1581883533469" duration="6591000" />
       <workItem from="1581894425760" duration="4027000" />
-      <workItem from="1582411005264" duration="221000" />
+      <workItem from="1582411005264" duration="832000" />
+      <workItem from="1583683948013" duration="297000" />
     </task>
+    <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
+      <created>1582411424248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582411424248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Teste de integração com Git e IntellijIDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste de integração com Git e IntellijIDEA" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#Inspections" timestamp="1580584842482">
@@ -245,10 +262,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581280971092" />
-    <state x="472" y="152" key="CommitChangelistDialog2" timestamp="1582411130407">
+    <state x="472" y="152" key="CommitChangelistDialog2" timestamp="1582411420012">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="472" y="152" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411130407" />
+    <state x="472" y="152" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411420012" />
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1582411790850">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411790850" />
     <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1581902784134">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -309,10 +330,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579459064303" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582411432863">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411432863" />
     <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1582411016117">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411016117" />
+    <state x="342" y="264" key="new project wizard" timestamp="1582411838821">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="264" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411838821" />
     <state x="632" y="231" width="672" height="677" key="run.anything.popup" timestamp="1580592479805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
