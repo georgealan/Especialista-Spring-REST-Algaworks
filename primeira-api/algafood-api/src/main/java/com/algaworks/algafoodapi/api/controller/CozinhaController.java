@@ -1,5 +1,7 @@
 package com.algaworks.algafoodapi.api.controller;
 
+import com.algaworks.algafoodapi.domain.exception.CozinhaNaoEncontradaException;
+import com.algaworks.algafoodapi.domain.exception.NegocioException;
 import com.algaworks.algafoodapi.domain.model.Cozinha;
 import com.algaworks.algafoodapi.domain.repository.CozinhaRepository;
 import com.algaworks.algafoodapi.domain.service.CadastroCozinhaService;
@@ -42,7 +44,11 @@ public class CozinhaController {
 
         BeanUtils.copyProperties(cozinha, cozinhaAtual, "id");
 
-        return cadastroCozinha.salvar(cozinhaAtual);
+        try {
+            return cadastroCozinha.salvar(cozinhaAtual);
+        }catch (CozinhaNaoEncontradaException e){
+            throw new NegocioException(e.getMessage());
+        }
     }
 
     @DeleteMapping("/{id}")

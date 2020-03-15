@@ -26,7 +26,7 @@ public class CadastroRestauranteService {
         return restauranteRepository.save(restaurante);
     }
 
-    public Restaurante buscarOuFalhar(Long cidadeId) {
-        return restauranteRepository.findById(cidadeId).orElseThrow(() -> new RestauranteNaoEncontradoException(cidadeId));
+    public Restaurante buscarOuFalhar(Long restauranteId) {
+        return restauranteRepository.findById(restauranteId).orElseThrow(() -> new RestauranteNaoEncontradoException(restauranteId));
     }
 }
