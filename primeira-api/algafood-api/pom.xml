@@ -64,6 +64,10 @@
             <artifactId>flyway-core</artifactId>
             <version>5.2.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

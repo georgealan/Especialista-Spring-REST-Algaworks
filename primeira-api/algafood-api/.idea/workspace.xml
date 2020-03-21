@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algafood-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algafood-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +231,8 @@
       <workItem from="1584546581344" duration="1851000" />
       <workItem from="1584637811214" duration="6682000" />
       <workItem from="1584666152355" duration="6925000" />
-      <workItem from="1584802065218" duration="548000" />
+      <workItem from="1584802065218" duration="686000" />
+      <workItem from="1584811585918" duration="8899000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -287,38 +296,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411790850" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1584677161402">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1584815834369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584677161402" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584815834369" />
     <state width="1877" height="354" key="GridCell.Tab.2.bottom" timestamp="1580604968480">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -351,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411432863" />
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584638317418">
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584811586336">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584638317418" />
+    <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584811586336" />
     <state x="769" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583717803287">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
