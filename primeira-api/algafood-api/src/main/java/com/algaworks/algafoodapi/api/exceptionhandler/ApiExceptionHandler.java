@@ -3,7 +3,10 @@ package com.algaworks.algafoodapi.api.exceptionhandler;
 import com.algaworks.algafoodapi.domain.exception.EntidadeEmUsoException;
 import com.algaworks.algafoodapi.domain.exception.EntidadeNaoEncontradaException;
 import com.algaworks.algafoodapi.domain.exception.NegocioException;
+import com.fasterxml.jackson.databind.exc.IgnoredPropertyException;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import com.fasterxml.jackson.databind.exc.PropertyBindingException;
+import com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -27,6 +30,9 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 
         if (rootCause instanceof InvalidFormatException) {
             return handleInvalidFormatException((InvalidFormatException) rootCause, headers, status, request);
+
+        } else if (rootCause instanceof PropertyBindingException) {
+            return handlePropertyBindingException((PropertyBindingException) rootCause, headers, status, request);
         }
 
         ProblemType problemType = ProblemType.MENSAGEM_INCOMPREENSIVEL;
@@ -37,12 +43,57 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
         return handleExceptionInternal(ex, problem, new HttpHeaders(), status, request);
     }
 
+    /**
+     * Método responsável por tratar de forma mais especifica as exceptions filhas de PropertyBindingException
+     *
+     * @param ex
+     * @param headers
+     * @param status
+     * @param request
+     * @return
+     */
+    private ResponseEntity<Object> handlePropertyBindingException(PropertyBindingException ex,
+                                                                  HttpHeaders headers, HttpStatus status, WebRequest request) {
+
+        String path = ex.getPath()
+                .stream()
+                .map(reference -> reference.getFieldName())
+                .collect(Collectors.joining("."));
+
+        ProblemType problemType = ProblemType.MENSAGEM_INCOMPREENSIVEL;
+
+        String mensagemUnica = "";
+
+        if (ex instanceof IgnoredPropertyException) {
+            mensagemUnica = "A propriedade '%s' existe mas não está sendo utilizada na serialização. Corrija removendo-a.";
+
+        } else if (ex instanceof UnrecognizedPropertyException) {
+            mensagemUnica = "A propriedade '%s' não existe na representação da entidade, Remover a propriedade inválida.";
+        }
+
+        String detail = String.format(mensagemUnica, path);
+
+        Problem problem = createProblemBuilder(status, problemType, detail).build();
+
+        return handleExceptionInternal(ex, problem, headers, status, request);
+    }
+
+
+    /**
+     * Método responsavel por tratar de forma mais especifica InvalidFormatException
+     *
+     * @param ex
+     * @param headers
+     * @param status
+     * @param request
+     * @return
+     */
     private ResponseEntity<Object> handleInvalidFormatException(InvalidFormatException ex,
                                                                 HttpHeaders headers, HttpStatus status, WebRequest request) {
 
         String path = ex.getPath()
                 .stream()
-                .map(ref -> ref.getFieldName())
+                .map(reference -> reference.getFieldName())
                 .collect(Collectors.joining("."));
 
         ProblemType problemType = ProblemType.MENSAGEM_INCOMPREENSIVEL;
@@ -55,6 +106,13 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
         return handleExceptionInternal(ex, problem, headers, status, request);
     }
 
+    /**
+     * Método responsável por tratar a exception EntidadeNaoEncontradaException
+     *
+     * @param ex
+     * @param request
+     * @return
+     */
     @ExceptionHandler(EntidadeNaoEncontradaException.class)
     public ResponseEntity<?> handleEntidadeNaoEncontradaException(EntidadeNaoEncontradaException ex, WebRequest request) {
 
@@ -97,6 +155,16 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
         return handleExceptionInternal(ex, problem, new HttpHeaders(), status, request);
     }
 
+    /**
+     * Método responsável por trabalhar na personalização das mensagens de erros que lançam com essa classe ExceptionInternal
+     *
+     * @param ex
+     * @param body
+     * @param headers
+     * @param status
+     * @param request
+     * @return
+     */
     @Override
     protected ResponseEntity<Object> handleExceptionInternal(Exception ex, Object body,
                                                              HttpHeaders headers, HttpStatus status, WebRequest request) {
@@ -116,6 +184,15 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
         return super.handleExceptionInternal(ex, body, headers, status, request);
     }
 
+    /**
+     * Método que prepara a instância de um builder, não é um builder ainda, é um ProblemBuilder que irá ser
+     * instanciado nos métodos acima.
+     *
+     * @param status
+     * @param problemType
+     * @param detail
+     * @return
+     */
     private Problem.ProblemBuilder createProblemBuilder(HttpStatus status, ProblemType problemType, String detail) {
         return Problem.builder()
                 .status(status.value())
