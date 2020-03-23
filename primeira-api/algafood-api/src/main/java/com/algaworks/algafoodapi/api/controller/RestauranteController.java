@@ -38,6 +38,9 @@ public class RestauranteController {
 
     @GetMapping("/{restauranteId}")
     public Restaurante buscar(@PathVariable Long restauranteId) {
+        if (true){
+            throw new IllegalArgumentException("teste");
+        }
         return cadastroRestaurante.buscarOuFalhar(restauranteId);
     }
 

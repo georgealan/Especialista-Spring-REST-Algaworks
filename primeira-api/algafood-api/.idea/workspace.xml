@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +233,8 @@
       <workItem from="1584637811214" duration="6682000" />
       <workItem from="1584666152355" duration="6925000" />
       <workItem from="1584802065218" duration="686000" />
-      <workItem from="1584811585918" duration="26828000" />
+      <workItem from="1584811585918" duration="26977000" />
+      <workItem from="1584904016690" duration="10061000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -291,54 +298,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411790850" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1584845066352">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066352" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1584845066352">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066352" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1584845066352">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066352" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1584845066352">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066352" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1584845066353">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066353" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1584845066353">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066353" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1584845066353">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066353" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1584845066353">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1584909154152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845066353" />
-    <state width="1877" height="302" key="GridCell.Tab.2.bottom" timestamp="1584829624370">
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="302" key="GridCell.Tab.2.bottom" timestamp="1584845291568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="302" key="GridCell.Tab.2.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584829624370" />
-    <state width="1877" height="302" key="GridCell.Tab.2.center" timestamp="1584829624370">
+    <state width="1877" height="302" key="GridCell.Tab.2.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845291568" />
+    <state width="1877" height="302" key="GridCell.Tab.2.center" timestamp="1584845291567">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="302" key="GridCell.Tab.2.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584829624370" />
-    <state width="1877" height="302" key="GridCell.Tab.2.left" timestamp="1584829624370">
+    <state width="1877" height="302" key="GridCell.Tab.2.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845291567" />
+    <state width="1877" height="302" key="GridCell.Tab.2.left" timestamp="1584845291567">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="302" key="GridCell.Tab.2.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584829624370" />
-    <state width="1877" height="302" key="GridCell.Tab.2.right" timestamp="1584829624370">
+    <state width="1877" height="302" key="GridCell.Tab.2.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845291567" />
+    <state width="1877" height="302" key="GridCell.Tab.2.right" timestamp="1584845291568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="302" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584829624370" />
+    <state width="1877" height="302" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845291568" />
     <state x="524" y="188" key="Registry" timestamp="1578778249365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
