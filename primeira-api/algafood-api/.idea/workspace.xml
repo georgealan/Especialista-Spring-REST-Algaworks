@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/Caderno Curso Especialista Spring REST.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/~$derno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/~$derno Curso Especialista Spring REST.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algafood-api.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -177,19 +172,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-    <option name="showServicesTree" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,7 +216,10 @@
       <workItem from="1584666152355" duration="6925000" />
       <workItem from="1584802065218" duration="686000" />
       <workItem from="1584811585918" duration="26977000" />
-      <workItem from="1584904016690" duration="10061000" />
+      <workItem from="1584904016690" duration="10161000" />
+      <workItem from="1585083091933" duration="753000" />
+      <workItem from="1588949361673" duration="64000" />
+      <workItem from="1589819638796" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -247,7 +232,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -258,10 +243,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="199" key="#Inspections" timestamp="1580584842482">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="199" key="#Inspections/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580584842482" />
     <state x="552" y="199" key="#SQL_Dialects" timestamp="1581893778463">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -278,14 +259,6 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="403" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584235133963" />
-    <state x="752" y="400" width="497" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580587419901">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="752" y="400" width="497" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1580587419901" />
-    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579485405954">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579485405954" />
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581280971092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -298,38 +271,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582411790850" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1589825633091">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793180" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633091" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1589825633091">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793179" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633091" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1589825633091">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793179" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633091" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1589825633091">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793179" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633091" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom" timestamp="1589825633092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793180" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633092" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center" timestamp="1589825633092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793180" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633092" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left" timestamp="1589825633092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
-    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1584909154152">
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793180" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633092" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right" timestamp="1589825633092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584909154152" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584929793180" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589825633092" />
     <state width="1877" height="302" key="GridCell.Tab.2.bottom" timestamp="1584845291568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -346,18 +327,6 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="302" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584845291568" />
-    <state x="524" y="188" key="Registry" timestamp="1578778249365">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="524" y="188" key="Registry/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578778249365" />
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1579458923759">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579458923759" />
-    <state x="392" y="108" width="1151" height="850" key="SettingsEditor" timestamp="1579459064303">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="392" y="108" width="1151" height="850" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1579459064303" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1582411432863">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
