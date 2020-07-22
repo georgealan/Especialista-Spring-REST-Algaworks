@@ -50,8 +50,6 @@ Tabela de conteúdos
      * [WebSite](#user-content-website--react----typescript)
      * [Server](#user-content-server--nodejs----typescript)
      * [Mobile](#user-content-mobile--react-native----typescript)
-   * [Contribuidores](#-contribuidores)
-   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
    * [Autor](#-autor)
    * [Licença](#user-content--licença)
 <!--te-->
