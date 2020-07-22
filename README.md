@@ -27,11 +27,11 @@
   </a>
   
   <a href="https://medium.com/kodyweb">
-    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%ffffff?style=flat&logo=Medium">
+    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%237159c1?style=flat&logo=Medium">
   </a>
 
   <a href="https://blog.kodyweb.com.br/">
-    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%237159c1?style=flat&logo=Instagram">
+    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%0xA43B9D?style=flat&logo=Instagram">
   </a>
   
  
