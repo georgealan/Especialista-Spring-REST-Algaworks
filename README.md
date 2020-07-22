@@ -1,11 +1,11 @@
 
 
 <h1 align="center">
-     💻 <a href="https://www.algaworks.com/" alt="site da Algaworks"> Curso Especialista Spring REST </a>
+     💻 <a href="https://www.algaworks.com/" target="_blank" alt="site da Algaworks"> Curso Especialista Spring REST </a>
 </h1>
 
 <h3 align="center">
-    🌱 treinamento imersivo e online sobre desenvolvimento de REST APIs com Spring mais completo do mundo, para desenvolvimento de REST APIs, como Spring Framework, Spring MVC, Spring Boot, Spring Data JPA, Spring Security, Spring Security OAuth e Spring HATEOAS. 💚
+    🏆 Treinamento imersivo e online sobre desenvolvimento de REST APIs com Spring mais completo do mundo, para desenvolvimento de REST APIs, como Spring Framework, Spring MVC, Spring Boot, Spring Data JPA, Spring Security, Spring Security OAuth e Spring HATEOAS. 💚
 </h3>
 
 <p align="center">
