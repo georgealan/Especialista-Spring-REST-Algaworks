@@ -30,8 +30,8 @@
     <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%237159c1?style=flat&logo=Medium">
   </a>
 
-  <a href="https://blog.kodyweb.com.br/">
-    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-a43b9d?style=flat&logo=Instagram">
+  <a href="https://www.instagram.com/georgealanrufo/" target="_blank">
+    <img alt="Instagram George Alan" src="https://img.shields.io/badge/Blog-KodyWeb-a43b9d?style=flat&logo=Instagram">
   </a>
   
  
