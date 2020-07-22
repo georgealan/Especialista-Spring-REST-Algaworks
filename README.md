@@ -27,7 +27,7 @@
   </a>
   
   <a href="https://blog.kodyweb.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-KodyWeb-%237159c1?style=flat&logo=ghost">
+    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%237159c1?style=flat&logo=Medium">
   </a>
   
  
