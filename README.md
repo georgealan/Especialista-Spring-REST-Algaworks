@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-     💻 <a href="https://www.algaworks.com/" target="_blank" alt="site da Algaworks"> Curso Especialista Spring REST </a>
+     💻 <a href="https://www.algaworks.com/" alt="site da Algaworks" target="_blank"> Curso Especialista Spring REST </a>
 </h1>
 
 <h3 align="center">
