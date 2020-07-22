@@ -191,7 +191,7 @@ As seguintes ferramentas estão sendo utilizadas na construção do projeto:
  <sub><b>George Alan</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat">🚀</a>
  <br />
 
-[![Medium Badge](https://img.shields.io/badge/-@georgealan-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=medium&logoColor=black&link=https://medium.com/kodyweb)](https://medium.com/kodyweb) [![Linkedin Badge](https://img.shields.io/badge/-George-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/george-alan-fullstack-developer/)](https://www.linkedin.com/in/george-alan-fullstack-developer/) 
+[![Medium Badge](https://img.shields.io/badge/-KodyWeb-1ca0f1?style=flat-square&labelColor=black&logo=medium&logoColor=white&link=https://medium.com/kodyweb)](https://medium.com/kodyweb) [![Linkedin Badge](https://img.shields.io/badge/-George-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/george-alan-fullstack-developer/)](https://www.linkedin.com/in/george-alan-fullstack-developer/) 
 [![Gmail Badge](https://img.shields.io/badge/-georgealan@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:georgealan@gmail.com)](mailto:georgealanrufo@gmail.com)
 
 ---
