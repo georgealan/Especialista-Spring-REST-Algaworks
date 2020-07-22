@@ -31,7 +31,7 @@
   </a>
 
   <a href="https://blog.kodyweb.com.br/">
-    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-%0xA43B9D?style=flat&logo=Instagram">
+    <img alt="Blog Medium KodyWeb" src="https://img.shields.io/badge/Blog-KodyWeb-a43b9d?style=flat&logo=Instagram">
   </a>
   
  
