@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algafood-api" target="12" />
+      <module name="algafood-api" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
