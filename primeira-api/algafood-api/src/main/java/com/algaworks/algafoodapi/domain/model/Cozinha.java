@@ -1,6 +1,6 @@
 package com.algaworks.algafoodapi.domain.model;
 
-import com.algaworks.algafoodapi.Groups;
+import com.algaworks.algafoodapi.core.validation.Groups;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

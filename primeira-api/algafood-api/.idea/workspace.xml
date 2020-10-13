@@ -5,27 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/ValidationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/~$derno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../assets/annotatios/~$derno Curso Especialista Spring REST.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CidadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CidadeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CozinhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/CozinhaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/EstadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/EstadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Cidade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Cozinha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Cozinha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Estado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CozinhaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/CozinhaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/Groups$CozinhaId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/Groups$EstadoId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/Groups.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ProblemType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Cidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Cidade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Cozinha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Cozinha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Estado.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,12 +90,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Properties" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.algaworks.algafoodapi.infrastructure.repository" />
       <recent name="com.algaworks.algafoodapi.notificacao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.algaworks.algafoodapi.core.validation" />
+      <recent name="com.algaworks.algafoodapi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.algaworks.algafoodapi.infrastructure.repository.spec" />
@@ -177,13 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,7 +260,8 @@
       <workItem from="1589819638796" duration="2968000" />
       <workItem from="1602363717187" duration="11159000" />
       <workItem from="1602447354333" duration="306000" />
-      <workItem from="1602453059857" duration="16773000" />
+      <workItem from="1602453059857" duration="16975000" />
+      <workItem from="1602531725213" duration="8511000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -284,41 +289,49 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602364922176" />
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1602471190850">
+    <state x="743" y="409" width="620" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602538655130">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190850" />
-    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1602471190849">
+    <state x="743" y="409" width="620" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602538655130" />
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1602536546394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190849" />
-    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1602471190849">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546394" />
+    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1602536546394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190849" />
-    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1602471190849">
+    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546394" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1602536546394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190849" />
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1602471190850">
+    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546394" />
+    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1602536546394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190850" />
-    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1602471190850">
+    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546394" />
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1602536546395">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190850" />
-    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1602471190850">
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546395" />
+    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1602536546395">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190850" />
-    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1602471190850">
+    <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546395" />
+    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1602536546394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602471190850" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1602364650950">
+    <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546394" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1602536546395">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602364650950" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602536546395" />
+    <state x="440" y="114" key="SettingsEditor" timestamp="1602533721198">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602533721198" />
+    <state x="775" y="321" key="chooseDestDirectoryDialog" timestamp="1602538634126">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="775" y="321" key="chooseDestDirectoryDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602538634126" />
   </component>
 </project>
