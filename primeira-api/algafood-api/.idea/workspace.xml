@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/Multiplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/MultiploValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/ValorZeroIncluiDescricao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/ValorZeroIncluiDescricaoValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$Object$ObjectBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$Object.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/core/validation/Multiplo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/core/validation/MultiploValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/core/validation/ValorZeroIncluiDescricao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/core/validation/ValorZeroIncluiDescricaoValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/ValidacaoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/domain/model/Restaurante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$Field$FieldBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem$ProblemBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
     </list>
@@ -271,7 +254,8 @@
       <workItem from="1602531725213" duration="8511000" />
       <workItem from="1651428716295" duration="847000" />
       <workItem from="1651429594638" duration="10830000" />
-      <workItem from="1651505379537" duration="19115000" />
+      <workItem from="1651505379537" duration="19569000" />
+      <workItem from="1651691926765" duration="7896000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -280,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582411424248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I learned about how to create annotations from scratch for validations treatments, in field and class depth.">
+      <created>1651527321025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651527321025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +281,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Teste de integração com Git e IntellijIDEA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste de integração com Git e IntellijIDEA" />
+    <MESSAGE value="I learned about how to create annotations from scratch for validations treatments, in field and class depth." />
+    <option name="LAST_COMMIT_MESSAGE" value="I learned about how to create annotations from scratch for validations treatments, in field and class depth." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
