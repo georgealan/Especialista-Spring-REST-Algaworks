@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/core/validation/ValidacaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/algafoodapi/CadastroCozinhaIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/~$derno Curso Especialista Spring REST.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/controller/RestauranteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/controller/RestauranteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/domain/model/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/algafoodapi/AlgafoodApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/algaworks/algafoodapi/AlgafoodApiApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,7 @@
       <recent name="E:\CURSOS\JAVA\Especialista-Spring-Rest-Algaworks\Projetos\primeira-api\algafood-api\src\main\resources\db\migration\testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AlgafoodApiApplication">
+  <component name="RunManager" selected="JUnit.CadastroCozinhaIT">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -117,67 +120,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlteracaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.AlteracaoRestauranteMain" />
+    <configuration name="CadastroCozinhaIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algafood-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="PATTERN" value="com.algaworks.algafoodapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.algafoodapi" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.CadastroCozinhaIT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuscaRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.BuscaRestauranteMain" />
+    <configuration name="CadastroCozinhaIT.deve_falhar_quando_excluir_cozinha_Inexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algafood-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="PATTERN" value="com.algaworks.algafoodapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.algafoodapi" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.CadastroCozinhaIT" />
+      <option name="METHOD_NAME" value="deve_falhar_quando_excluir_cozinha_Inexistente" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultaRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.ConsultaRestauranteMain" />
+    <configuration name="CadastroCozinhaIT.deve_falhar_quando_excluir_cozinha_em_uso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algafood-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="PATTERN" value="com.algaworks.algafoodapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.algafoodapi" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.CadastroCozinhaIT" />
+      <option name="METHOD_NAME" value="deve_falhar_quando_excluir_cozinha_em_uso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExclusaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.ExclusaoRestauranteMain" />
+    <configuration name="CadastroCozinhaIT.testarCadastroCozinhaComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algafood-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="PATTERN" value="com.algaworks.algafoodapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.algafoodapi" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.CadastroCozinhaIT" />
+      <option name="METHOD_NAME" value="testarCadastroCozinhaComSucesso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InclusaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.jpa.InclusaoRestauranteMain" />
+    <configuration name="CadastroCozinhaIT.testarCadastroCozinhaSemNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algafood-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.algafoodapi.jpa.*" />
+          <option name="PATTERN" value="com.algaworks.algafoodapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.algafoodapi" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.algafoodapi.CadastroCozinhaIT" />
+      <option name="METHOD_NAME" value="testarCadastroCozinhaSemNome" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsultaRestauranteMain" />
-        <item itemvalue="Application.InclusaoRestauranteMain" />
-        <item itemvalue="Application.ExclusaoRestauranteMain" />
-        <item itemvalue="Application.AlteracaoRestauranteMain" />
-        <item itemvalue="Application.BuscaRestauranteMain" />
+        <item itemvalue="JUnit.CadastroCozinhaIT" />
+        <item itemvalue="JUnit.CadastroCozinhaIT.deve_falhar_quando_excluir_cozinha_Inexistente" />
+        <item itemvalue="JUnit.CadastroCozinhaIT.deve_falhar_quando_excluir_cozinha_em_uso" />
+        <item itemvalue="JUnit.CadastroCozinhaIT.testarCadastroCozinhaSemNome" />
+        <item itemvalue="JUnit.CadastroCozinhaIT.testarCadastroCozinhaComSucesso" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +272,8 @@
       <workItem from="1651428716295" duration="847000" />
       <workItem from="1651429594638" duration="10830000" />
       <workItem from="1651505379537" duration="19569000" />
-      <workItem from="1651691926765" duration="7896000" />
+      <workItem from="1651691926765" duration="8074000" />
+      <workItem from="1651858731317" duration="15223000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -271,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651527321025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ninth module is complete.">
+      <created>1651714279729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651714279729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +307,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Teste de integração com Git e IntellijIDEA" />
     <MESSAGE value="I learned about how to create annotations from scratch for validations treatments, in field and class depth." />
-    <option name="LAST_COMMIT_MESSAGE" value="I learned about how to create annotations from scratch for validations treatments, in field and class depth." />
+    <MESSAGE value="Ninth module is complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ninth module is complete." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
