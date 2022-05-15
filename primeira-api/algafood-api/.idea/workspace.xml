@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9ab295-1579-47be-b0d8-b1d8400147a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/algafoodapi/CadastroCozinhaIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/Caderno Curso Especialista Spring REST.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assets/annotatios/~$derno Curso Especialista Spring REST.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/algafoodapi/AlgafoodApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/algafoodapi/api/exceptionhandler/ApiExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/algaworks/algafoodapi/AlgafoodApiApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +265,7 @@
       <workItem from="1651429594638" duration="10830000" />
       <workItem from="1651505379537" duration="19569000" />
       <workItem from="1651691926765" duration="8074000" />
-      <workItem from="1651858731317" duration="15223000" />
+      <workItem from="1651858731317" duration="16358000" />
     </task>
     <task id="LOCAL-00001" summary="Teste de integração com Git e IntellijIDEA">
       <created>1582411424248</created>
@@ -296,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651714279729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inclusão de testes de integração com JUnit Jupiter 5,continuar na aula 10.8">
+      <created>1651874728085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651874728085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +307,8 @@
     <MESSAGE value="Teste de integração com Git e IntellijIDEA" />
     <MESSAGE value="I learned about how to create annotations from scratch for validations treatments, in field and class depth." />
     <MESSAGE value="Ninth module is complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ninth module is complete." />
+    <MESSAGE value="Inclusão de testes de integração com JUnit Jupiter 5,continuar na aula 10.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão de testes de integração com JUnit Jupiter 5,continuar na aula 10.8" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
